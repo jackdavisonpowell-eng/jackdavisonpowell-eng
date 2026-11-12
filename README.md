@@ -1,6 +1,6 @@
 Jack Davison Powell
 
-I build self-hosted AI systems on second-hand datacenter hardware. Three inference machines, 200 GB of RAM, 64 GB of HBM, all in my house.
+I build self-hosted AI systems on second-hand datacenter hardware. Three inference machines, 192 GB of RAM, 64 GB of HBM, all in my house.
 
 Pantheon core: A Proxmox host on a dell r210 rackmount server, running PFsense firewall from the router with a custom 2.5gb NIC, going out into a rackmount Cisco switch for VLAN segments, my proxmox box runs containers that are the core of my main AI systems, split evenly across threads so each compute node stays AI only for maximum performance.
 
